@@ -40,6 +40,7 @@ def update_match():
     except NotFound:
         print("Lỗi Không tìm được document")    
 
+# Cập nhật toàn bộ thông tin của trận đấu
 def update_full_match():
     matches_ref.document("63qaRNCOypPlLMxwjF8G").set({
         'player1': 'Tùng',
