@@ -1,3 +1,9 @@
 google-generativeai
 python-dotenv
 firebase-admin
+
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+alembic
